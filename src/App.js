@@ -34,6 +34,7 @@ toggleMenuSelect = () => {
                   <li className="nav-item">Contact</li>
                 </ul>
             </div>
+         </div>
 
 
             <button className="button-appear" onClick={this.toggleMenuSelect}>Menu <img src="https://www.contentformula.com/blog/wp-content/uploads/2016/06/hamburger-menu.png" alt="hamburger icon for drop down me" ></img></button>
@@ -46,8 +47,6 @@ toggleMenuSelect = () => {
                   <li className="mobile-nav-item">Contact</li>
                 </ul>
             </div>
-
-          </div>
         </nav>
 
 

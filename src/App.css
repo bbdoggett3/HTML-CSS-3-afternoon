@@ -19,6 +19,7 @@
 
 .navbar{
   display: flex;
+  position: relative;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
@@ -44,21 +45,17 @@
 
 .navbar-selection-container {
   display: flex;
+  position: relative;
   flex-direction: row; 
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-end;
-
 }
 
 .navbar-selection {
-  position: relative;
+position: relative;
 
 }
-
-/* .mobile-navbar-selection-container {
-
-} */
 
 .mobile-navbar-selection {
   position: absolute;
@@ -74,6 +71,7 @@
   align-items: left;
   justify-content: space-evenly;
   overflow: hidden;
+  transition: all 1s;
 }
 
 .mobile-nav-item-open {
